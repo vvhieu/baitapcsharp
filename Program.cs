@@ -7,11 +7,10 @@ namespace ConsoleApplication1
 {
     class Program
     {
-        static void Main(string[] args)s
+        static void Main(string[] args)
         {
-            doantau tau1 = new doantau();
-            tau1.nhaptt();
-            tau1.intien();
+            tinhtong tong = new tinhtong();
+            tong.xuat();
             Console.ReadLine();
         }
     }
